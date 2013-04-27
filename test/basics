@@ -1,0 +1,15 @@
+#!/bin/zsh
+set -xe
+PATH=`pwd`/bin:$PATH
+export RUBYLIB=`pwd`/lib:$RUBYLIB RUBYOPT=-rwxyz
+
+bundle exec ruby test/testml.rb
+
+store=test/test.cogdb; rm -rf $store; mkdir $store
+
+cd $store
+cogdb init
+cogdb new --content='... backup' --tag=ToDo
+# perl -e '$a = `cogdb find --tag=ToDo`; die $a unless $a =~ /\n/'
+cd -; rm -r $store
+: [32mGreen bar.[0m

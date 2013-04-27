@@ -1,0 +1,19 @@
+= CogDB - A Thoughtful Data Store
+
+= Synopsis
+
+    > mkdir ingy-cog
+    > cd ingy-cog
+    > cog init
+    > cog new
+    W4DG Created.
+    > cog edit W4DG
+
+= Description
+
+CogDB is a framework for storing and sharing your ideas in a permanently
+addressable and friendly manner.
+
+= Copyright
+
+Copyright (c) 2013 Ingy döt Net. See LICENSE for further details.

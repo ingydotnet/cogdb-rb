@@ -1,0 +1,12 @@
+Id: AB3D-9999999999999999999999
+Name: Foo
+Name: Foo to the bar
+Time: 2013-04-21T17:28:44
+Rev: 2
+Type: xlog
+Tag: x, y
+Url: http://foo.com
+markup: kwim
+content::
+Blah blah blah blah.
+Blah blah blah blah.

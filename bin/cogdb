@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'cogdb/command'
+
+CogDB::Command.new(ARGV).run
